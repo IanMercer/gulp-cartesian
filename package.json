@@ -1,0 +1,40 @@
+{
+  "name": "gulp-cartesian",
+  "version": "0.1.0",
+  "description": "A gulp plugin to decorate a stream with metadata",
+  "author": {
+    "name": "Ian Mercer",
+    "email": "ian@signswift.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IanMercer/gulp-cartesian"
+  },
+  "keywords": [
+    "gulpplugin",
+    "metadata",
+    "cartesian"
+  ],
+  "bugs": {
+    "url": "https://github.com/ianmercer/gulp-cartesian"
+  },
+  "homepage": "https://github.com/ianmercer/gulp-cartesian",
+  "devDependencies": {
+    "gulp": "~3.8.0",
+    "gulp-jasmine": "~0.2.0",
+    "gulp-jshint": "~1.7.0",
+    "lodash.assign": "^2.4.1",
+    "through2": "^0.6.3",
+    "vinyl": "^0.4.3"
+  },
+  "dependencies": {
+    "gulp-util": "~2.2.14",
+    "through2": "^0.6.3",
+    "lodash.assign": "^2.4.1"
+  }
+}
